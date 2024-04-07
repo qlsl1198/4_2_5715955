@@ -20,6 +20,8 @@ int main() {
     printf("B = ");
     print_poly(4, 6);
 
+    printf("-----------------------------------------\n"); // 다항식과 결과 값 구분선
+
     // 다항식의 곱셈 수행
     poly_multiply(0, 3, 4, 6, &Cs, &Ce);
     printf("A * B = ");
